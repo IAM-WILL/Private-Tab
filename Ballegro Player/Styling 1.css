@@ -1,0 +1,43 @@
+h1 {
+  color: blue;
+  font-family: monospace, "Times New Roman";
+
+
+
+}
+
+a{
+  text-decoration: none;
+
+}
+
+#img-ball{
+
+  width: 300px
+}
+
+p{
+  line-height: 40px;
+  text-align: justify;
+  letter-spacing: normal;
+  font-weight: 100;
+  font-kerning: auto;
+  font-family: sans-serif;
+  text-align: left;
+  text-indent: inherit;
+  font-size: 14p
+
+
+}
+
+.small {
+  color: red;
+}
+
+.Background{
+  background-color: grey;
+  width: 20px
+  padding: 100px
+
+
+}
