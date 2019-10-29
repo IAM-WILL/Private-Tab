@@ -1,39 +1,39 @@
-div{
+div {
   background-color: white;
-  width: 960px;
+  width: 1060px;
   margin: 1px;
-  border: 2px solid black
+  border: 2px solid black;
   padding:0px;
-  border-bottom: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*border-bottom: 2px solid black;
   border-left:   2px solid black;
   border-right:  2px solid black;
-  border-top:    2px solid black;
+  border-top:    2px solid black;*/
 }
 
-body{
+body {
   background-image: url(8_pic1.png);
   font-family: helvetica;
-  background-color: white;
+  grid-template-rows: auto 1fr auto;
+
 }
 
 nav {
-  float: left;
-  background-color: white;
+float: left;
 width: 200px;
 list-style-type: none;
 margin:  0px;
 padding: 0px;
+grid-column: span 3;
 }
 
 main {
-  width: 620px;
-  margin-left: 240px;
+  width: 720px;
+  margin-left: 200px;
   padding: 10px;
-  margin: 10px;
-float: l
+ grid-column: span 9;
 }
-
-
 
 .Hel:link{
   color: Red;
@@ -62,27 +62,28 @@ float: left;
   border: 4px solid black;
   padding: 8px;
   margin-right: 10px;
-  width: 500px;
+  width: 450px;
 }
 
 .Text{
   font-weight: bold;
   font-family: Georgia;
-float: left;
+
 
 }
 
-h2{
+h2 {
   border-bottom: 2px solid black;
   margin-left: 30px;
 
 }
 
-header{
+header {
   background-color: black;
   color: white;
   margin: 2px;
   padding: 2px;
+  grid-column: span 12;
 
 }
 
@@ -100,14 +101,13 @@ a{
   color:white;
 }
 
-li a:hover{
+li:hover{
   background-color:rgb(105, 0, 52);
   background-size: 10px;
   text-decoration-style: none;
   display:flex;
 }
-
-.Foot{
+footer {
 font-family: Verdana;
 font-style: italic;
 background-color: red;
@@ -118,6 +118,4 @@ clear: both;
 margin-top: 50px;
 text-align: center;
 padding-bottom: 20px;
-
-
-}
+grid-column: span 10
